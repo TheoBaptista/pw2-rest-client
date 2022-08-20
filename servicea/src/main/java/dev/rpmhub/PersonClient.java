@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 
-@RegisterRestClient(baseUri = "http://localhost:8080/serviceb")
+@RegisterRestClient(configKey = "serviceb-api")
 public interface PersonClient {
 
     @GET
