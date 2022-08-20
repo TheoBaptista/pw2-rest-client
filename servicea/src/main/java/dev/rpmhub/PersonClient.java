@@ -9,8 +9,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 
-@RegisterRestClient(baseUri = "http://localhost:4444/serviceb")
-public interface GetPersonClient {
+@RegisterRestClient
+public interface PersonClient {
 
     @GET
     @Path("/person/{name}")
